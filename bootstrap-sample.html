@@ -7,24 +7,33 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+
+    <link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
+
     <style>
       [class*="col-"] {
-        background-color: rgba(37,67,100,.3);
-        border: 1px solid rgba(37,67,100,.2);
+        background-color: rgba(255,204,51,0.1);
+        border: 1px solid rgba(255,204,51,0.3);
       }
     </style>
+
   </head>
   <body>
     <div class="container-fluid">
+
+        <div class="alert alert-success" role="alert" style="text-align: center;">
+  			<strong>Well done!</strong> You successfully complete <a href="#" class="alert-link">the Bootstrap framework</a>.
+		</div> 
+      
         <div class="row text-center">
           	<div class="col">
-		    <h1>Title here</h1>
-		    <h2>Subtitle here</h2>
-		    <h2><div class="hidden-sm-up">"hidden-xs-down XS device</div></h2>
-		    <h2><div class="hidden-xs-down hidden-md-up">SM device</div></h2>
-		    <h2><div class="hidden-sm-down hidden-lg-up">MD device</div></h2>
-		    <h2><div class="hidden-md-down hidden-xl-up">LG device</div></h2>
-		    <h2><div class="hidden-lg-down">XL device</div></h2>
+		    <h1>Youngsun You</h1>
+		    <h2>Bootstrap</h2>
+		    <h2><div class="hidden-sm-up"> <strong>XS</strong> device <i class="em em-100"></i></div></h2>
+		    <h2><div class="hidden-xs-down hidden-md-up"><strong>SM</strong> device</div></h2>
+		    <h2><div class="hidden-sm-down hidden-lg-up"><strong>MD</strong> device</div></h2>
+		    <h2><div class="hidden-md-down hidden-xl-up"><Strong>LG</Strong> device</div></h2>
+		    <h2><div class="hidden-lg-down"><strong>XL</strong> device</div></h2>
           	</div>
         </div>
     
@@ -34,46 +43,60 @@
 		</div>
    		<div class="col-8">
 			<div class="row myBack2">
-				<div class="col-md-4 myOutline"> <button type="button" class="btn btn-danger">Button1</button></div>
-				<div class="col-md-4 myOutline"> <button type="button" class="btn btn-warning">Button2</button></div>
-				<div class="col-md-4 myOutline"> <button type="button" class="btn btn-success">Button3</button></div>
+				<div class="col-md-4 myOutline" style="padding-top:0.25em; padding-bottom:0.25em;"> <button type="button" class="btn btn-info">Button 1</button></div>
+				<div class="col-md-4 myOutline"  style="padding-top:0.25em; padding-bottom:0.25em;"> <button type="button" class="btn btn-warning">Button 2</button></div>
+				<div class="col-md-4 myOutline" style="padding-top:0.25em; padding-bottom:0.25em;"> <button type="button" class="btn btn-success">Button 3</button></div>
 			</div>
 		</div>
    	 </div>
-    
-	 <div class="row myBack3 myOutline text-center">
-		<div class="col">
-			<span class="">Bottom1</span>
-		</div>
-		<div class="col">
-			<span class="badge badge-pill badge-primary">Bottom2</span>
-		</div>
-		<div class="col">
-			<span class="badge badge-pill badge-success">Bottom3</span>
-		</div>
-		<div class="col">
-			<span class="badge badge-pill badge-info">Bottom4</span>
-		</div>
-		<div class="col">
-			<span class="badge badge-pill badge-warning">Bottom5</span>
-		</div>
-		<div class="col">
-			<span class="badge badge-pill badge-danger">Bottom6</span>
-		</div>
-	</div>	  
+
+
+		<div class="row myBack4 myOutline">
+			<div class="col-md-3">
+				<div class="progress">
+					<div class="progress-bar progress-bar-striped" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+				</div>
+			</div>
+			<div class="col-md-3">
+				<div class="progress">
+					<div class="progress-bar progress-bar-info" role="progressbar-success" style="width: 60%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+				</div>
+			</div>
+			<div class="col-md-3">
+				<div class="progress">
+					<div class="progress-bar progress-bar-striped" role="progressbar" style="width: 40%" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"></div>
+				</div>
+			</div>
+			<div class="col-md-3">
+				<div class="progress">
+					<div class="progress-bar progress-bar-warning" role="progressbar" style="width: 20%" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"></div>
+				</div>
+			</div>
+		</div> 
 	  
-	  
-	 <div class="row myBack3 myOutline text-center">
-		<div class="col-xs-7 col-sm-6 col-lg-8" style="background-color:yellow;">.col-xs-5 .col-sm-6 .col-lg-4</div>
-    		<div class="col-xs-5 col-sm-6 col-lg-4" style="background-color:lavender;">.col-xs-7 .col-sm-6 .col-lg-8</div>
-	</div>	
-	  
-	  
+	 <div class="row myBack3 myOutline text-center" style="background-color: #FFB6C1;">
+		<div class="col">
+			<span class="badge badge-pill badge-primary"><i class="em em-dog"></i></span>
+		</div>
+		<div class="col">
+			<span class="badge badge-pill badge-warning"><i class="em em-alien"></i></span>
+		</div>
+		<div class="col">
+			<span class="badge badge-pill badge-success"><i class="em em-beers"></i></span>
+		</div>
+		<div class="col">
+			<span class="badge badge-pill badge-info"><i class="em em-brain"></i></span>
+		</div>
+		<div class="col">
+			<span class="badge badge-pill badge-default"><i class="em em-cat"></i></span>
+		</div>
+	</div>
+
 </div>
 	 
 
       
-      
+    
       
     <!-- jQuery first, then Tether, then Bootstrap JS. -->
     <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
